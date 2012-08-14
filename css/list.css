@@ -1,0 +1,25 @@
+body { background-attachment: fixed; }
+.icon a {
+  display: block;
+  font-size: large;
+  text-decoration: none;
+}
+#icons { margin-left: 150px; }
+#icons ul { margin: .5em; padding: .5em; }
+.icon {
+  list-style-type: circle;
+  max-width: 200px;
+}
+.icon:hover { list-style-type: disc; }
+.separator {
+  padding-bottom: 0.5em;
+  margin-bottom: 0.5em;
+  border-bottom: 1px dotted #999999;
+}
+#footer {
+  position: fixed;
+  left: 0; right: 0;
+  bottom: 0;
+  margin-bottom: 10px;
+}
+#icons ul { -moz-column-count: 3; } /* Gecko only */

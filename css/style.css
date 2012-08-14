@@ -1,0 +1,15 @@
+body {
+  font: medium "Verdana", Helvetica, sans-serif;
+  margin: 20px;
+  background: #ffffff url(haruhi-gtr.png) 0 50px no-repeat;
+}
+body, a:link, .icon {
+  color: #999999;
+}
+a:visited { color: #aaaaaa; }
+a:hover { color: #666666; }
+.clear { clear: both; }
+#footer {
+  font-size: small;
+  text-align: center;
+}
